@@ -50,7 +50,7 @@ int main() {
             break;
         }
         case 3: {
-            cout << "Do you want to print the Total Price? ( 1: print , 0: not print)----->: ";
+            cout << "Do you want to print the Total Price? ( 1: Print , 0: Do not print)----->: ";
             cin >> inputBool;
             cout << endl;
             printReceipt(receipt, fill, inputBool);
